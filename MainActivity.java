@@ -39,6 +39,8 @@ public class TwitterApp {
 	public TwitterApp(Activity context, String consumerKey, String secretKey) {
 		this.context = context;
 
+Log.w("Nikhil", "this is really cool thing in the world");
+
 		mTwitter = new TwitterFactory().getInstance();
 		mSession = new TwitterSession(context);
 		mProgressDlg = new ProgressDialog(context);
